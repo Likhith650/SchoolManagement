@@ -1,0 +1,121 @@
+.login-form {
+  width: 50vw;
+  display: grid;
+  background: white;
+  padding: 50px !important;
+  font-size: 1vw;
+  border-radius: 0 10px 10px 0;
+}
+input {
+  margin-bottom: 30px;
+}
+.image {
+  background-image: url("./stldgitlal-logo.png");
+}
+.login-box {
+  display: grid;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  width: 70% !important;
+}
+
+.background {
+  /* background: linear-gradient(to right, #f2709c, #ff9472); */
+  /* background: linear-gradient(to right, #c4bfc1, #313030); */
+  background: url("pexels-pixabay-159720.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+button.mt-3.mb-3.px-auto.text-center {
+  font-weight: 500;
+  text-align: center;
+  padding: 0 110px !important;
+  font-size: 18px !important;
+}
+p {
+  color: #969696;
+}
+.btn {
+  background-color: #013142 !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px;
+  height: 50px;
+  width: 100%;
+  font-size: medium;
+}
+.mobile-img {
+  display: grid;
+}
+.left-background {
+  /* background-color: #013142; */
+  /* background: linear-gradient(to right, #c4bfc1, #313030); */
+  background: url("pexels-kaboompics-com-6663.jpg")no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 40px !important;
+  padding-bottom: 0 !important;
+  border-radius: 10px 0 0 10px;
+}
+
+@media only screen and (max-width: 425px) {
+  form {
+    width: 66vw;
+  }
+  .login-form {
+    padding: 25px !important;
+    font-size: 0.8rem;
+    border-radius: 0 0 10px 10px;
+  }
+  .left-background {
+    padding: 20px !important;
+    padding-bottom: 0 !important;
+    border-radius: 10px 10px 0 0;
+  }
+  .container {
+    width: 80% !important;
+  }
+
+  .btn {
+    font-size: 14px !important;
+  }
+}
+
+/* navabar */
+.navbardiv,
+.navul {
+  display: flex;
+  align-items: center;
+}
+.navbardiv {
+  justify-content: space-between;
+  background: linear-gradient(to right, #bdb9ba, #141414);
+  /* background: url("pexels-alex-andrews-1983013.jpg") no-repeat center center;
+  background-size: cover; */
+  padding: 5px 20px;
+  /* border-radius: 10px; */
+  /* margin: 0px 3px; */
+}
+.navul {
+  list-style: none;
+  gap: 50px;
+}
+
+/* navabar */
+
+.bgimg {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px soild blue;
+  background: url("pexels-lukas-1420709.jpg");
+  background-size: cover;
+}
+
+.h1 {
+  background-color: conic-gradient(red, orange, yellow, green, blue);
+}
